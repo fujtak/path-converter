@@ -96,7 +96,7 @@ textarea {
 
 dialog {
   position: fixed;
-  top: 150px;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -104,6 +104,12 @@ dialog {
 @media screen and (max-width: 767px) {
   .p-col2 {
     grid-template-columns: 1fr;
+  }
+  dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 </style>
